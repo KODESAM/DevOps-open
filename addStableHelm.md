@@ -12,3 +12,11 @@ helm package <chartname>
 helm uninstall RELEASE_NAME
 
 ```
+# Pull repo
+```
+helm pull stable/mysql
+```
+# Create Package from local Repo
+```
+helm package mysql
+```
